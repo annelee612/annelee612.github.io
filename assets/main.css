@@ -1,0 +1,91 @@
+
+.highlight {
+	background: yellow;
+	padding: 5px 15px;
+	margin: 10px;
+}
+
+.colors li {
+	/*display: inline;*/
+	/*margin: 20px;*/
+}
+
+/* Applies to all */
+body {
+  background-color: black;
+  color: white;
+}
+
+a {
+	color: #3a0b0f;
+}
+
+
+/* Nav header */
+#nav-header {
+  background-color: #ffffff;
+  color: #000;
+  font-size: 34px;
+  font-weight: lighter;
+  padding-left: 25px;
+}
+
+#nav-header .logo {
+  font-weight: bolder;
+}
+
+.nav-links {
+	text-align: right;
+}
+
+.nav-links > a {
+	margin: 10px;
+}
+
+/* Main content */
+#main-content {
+
+}
+
+#main-content .video {
+	text-align: center;
+	margin: 20px 0;
+}
+
+#main-content .video iframe {
+	max-width: 100%;	
+}
+
+#main-content .row {
+	position: relative;
+}
+
+#main-content .description {
+	background: black;
+	vertical-align: bottom;
+	font-size: 20px;
+	position: absolute;
+  bottom: 0;
+  right:0;
+}
+
+/* Social Links*/
+#social {
+	padding-left: 25px;
+	float: right;
+	margin: 20px;
+}
+
+#social .fa {
+	font-size: 50px;
+}
+
+#social > a {
+	color: #ffffff;
+	margin: 0 10px;
+}
+
+#social > a:hover {
+	color: #601017;
+}
+
